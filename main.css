@@ -1,0 +1,136 @@
+*{
+    font-family: roboto, sans-serif;
+}
+
+header {
+    background-color: rgb(26, 175, 59);
+}
+
+header h1 {
+    font-family: pacifico, cursive;
+    padding: 0;
+    color: #fff;
+    font-style: italic;
+}
+
+.nav-link { 
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-link:hover { 
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.nav .nav-link.active{
+    background-color: #fff;
+    color:  rgb(26, 175, 59);
+}
+
+.navbar-toggler{
+    background-color: #fff;
+    color: rgb(26, 175, 59);;
+}
+
+#sectionCarousel {
+    border-top: 3px solid rgba(31, 204, 117, 0.5);
+    border-bottom: 3px solid rgba(31, 204, 117, 0.5);
+}
+
+h2 {
+    font-family: pacifico, cursive;
+    font-style: italic;
+}
+
+h2 > span,
+h3 {
+    color:  rgb(26, 175, 59);
+    font-family: pacifico, cursive;
+    font-style: italic;
+}
+
+h4, .h4 {
+    color:  rgb(26, 175, 59);
+    font-family: roboto, sans-serif;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+}
+
+#about, #cardapio {
+    background-color: rgba(26, 175, 58, 0.1);
+}
+
+section img {
+    border: 4px solid rgb(26, 175, 59);
+    border-radius: 20px;
+}
+
+#events img{
+    max-height: 270px;
+    overflow-y: hidden;
+}
+
+.nav-cardapio .nav-link.active, #contact button{
+    background-color: rgb(26, 175, 59);
+    color:  #fff;
+    border: none;
+}
+
+.nav-cardapio .nav-link { 
+    color: rgb(26, 175, 59);
+    font-weight: bold;
+}
+
+.nav-cardapio .nav-link:hover { 
+    border: 2px solid rgb(26, 175, 59);
+    color: rgb(26, 175, 59);
+}
+
+.nav-cardapio .nav-link.active:hover { 
+    color: #fff;
+}
+
+#cardapio img {
+    border: 2px solid rgb(26, 175, 59);
+    border-radius: 20px;
+}
+
+#contact li, #contact ul {
+    list-style: none;
+    display: flex;
+}
+
+#contact textarea{
+    height: 200px;
+    resize: none;
+}
+
+#contact form input:focus, #contact form textarea:focus{
+    box-shadow: 0 0 0.15em 0.15em   rgb(26, 175, 59);
+}
+
+#contact button:hover{
+    background-color:  rgb(26, 175, 59, 0.5);
+}
+
+#contact img{
+    border: none;
+    max-width: 100%;
+    height: 3em;
+}
+
+footer{
+    background-color: rgb(26, 175, 59);
+}
+
+footer h5{
+    font-family: roboto, sans-serif;
+    color:  #fff;
+    font-style: none;
+}
+
